@@ -1,18 +1,27 @@
 {
   "name": "signmate",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "eas-cli": "^3.11.0",
     "expo": "~48.0.15",
+    "expo-av": "^13.2.1",
+    "expo-camera": "^13.2.1",
     "expo-status-bar": "~1.4.4",
+    "lottie-react-native": "5.1.4",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.8",
+    "react-native-elements": "^3.4.3",
+    "react-native-select-dropdown": "^3.3.3",
+    "react-native-webview": "11.26.0",
+    "react-native-youtube-iframe": "^2.2.2",
+    "expo-splash-screen": "~0.18.2",
+    "expo-dev-client": "~2.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
