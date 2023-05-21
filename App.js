@@ -10,7 +10,7 @@ import LottieView from 'lottie-react-native';
 const Loader = () => {
   return (
     <View style={[StyleSheet.absoluteFillObject, styles.loader]}>
-      <LottieView source={require('./97203-loader.json')} autoPlay loop />
+      <LottieView source={require('./anime1.json')} autoPlay loop />
     </View>
   )
 }

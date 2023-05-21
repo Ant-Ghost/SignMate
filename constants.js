@@ -335,6 +335,6 @@ const words = {
     "zipper": 249
 }
 
-const backend = 'https://e9b4-2405-201-8010-d0c3-5d47-2118-d774-49ca.ngrok-free.app/file/upload';
+const backend = 'https://5c68-2405-201-8010-d0c3-5d47-2118-d774-49ca.ngrok-free.app/file/upload';
 
 export { words, backend}
